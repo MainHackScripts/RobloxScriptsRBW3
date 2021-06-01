@@ -90,7 +90,7 @@ do
 
 		draw.Transparency = 1
 		local text = Drawing.new('Text')
-		text.Text = 'NitroRBW3 GUI\n\n\n\Script by:: Roblox Script'
+		text.Text = 'NitroRBW3 GUI\n\n\n\nScript by: Roblox Script'
 		text.Center = true
 		text.Color = Color3.fromRGB(255,255,255)
 		text.Size = 30
