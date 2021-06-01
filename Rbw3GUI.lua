@@ -126,7 +126,7 @@ do
 
 	Main.GUI = Instance.new('ScreenGui', Main.Services.CoreGui)
 	Main.GUI.Name = 'LB UI Library' .. getService('HttpService'):GenerateGUID()
-	sendNotification('Loading...', '')
+	sendNotification('Loading...', 'Loading DSFX..')
 	wait(9)
 	sendNotification('UI Loaded!', 'Enjoy!!')
 
