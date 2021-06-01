@@ -973,7 +973,44 @@ btns:Button(
     function()
     loadstring(game:HttpGet(('https://github.com/MainHackScripts/RiskyJoip-sHub/files/6563898/RiskyJoip.s.HUB.txt'),true))()
     end)
+    btns:Seperator()
+    
+btns:Button(
+    "Inf.Yield",
+    function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()    
+    end)
+    btns:Seperator()        
+    
+    
+local Manual = serv:Channel("User Manual")
+Manual:Label("Nitro RBW3")
+Manual:Label("Last updated: 5/31/2021")
+Manual:Label("Thanks for using Nitro HUB!")
+
+local btns = serv:Channel("LocalPlayer")
+
+btns:Button(
+    "CLICK ME!",
+    function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "NOTE:", Text = "This section is not for RBW3!"})
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Bannable!", Text = "Use these cheats at your own risk!"})
+    end)
+    btns:Seperator()       
+
+print("Thanks for your purchase!")
+
+
+btns:Button(
+    "Off Spam",
+    function()
+    while wait(1) do
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("F_UCKOFFMYCOURT","All")
+
+end
+    end)
     btns:Seperator()    
+
 
 
 
