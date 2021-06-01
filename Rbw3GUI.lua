@@ -853,7 +853,7 @@ wait(1)
 local DiscordLib =
     loadstring(game:HttpGet "https://pastebin.com/raw/77UNR1q7")()
 
-local FLOP = DiscordLib:Window("Roblox Script, and Nitro Hub")
+local FLOP = DiscordLib:Window("Rbw3 NitroHub By: Roblox Scripts")
 
 
 local serv = FLOP:Server("NitroHub", "")
@@ -955,6 +955,26 @@ end)
 local Credits = serv:Channel("Credits")
 Credits:Label("Script by: Roblox Scripts")
 Credits:Label("Design and Modification: RiskyJoip#6733")
+
+
+local btns = serv:Channel("More...")
+
+btns:Button(
+    "Discord Server",
+    function()
+    setclipboard("https://discord.io/NitroHacks")
+     game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Copied to clipboard", Text = "Press Ctrl+V in ur web browser!"})
+    end)
+    btns:Seperator()
+    
+
+btns:Button(
+    "NitroHub RBW2",
+    function()
+    loadstring(game:HttpGet(('https://github.com/MainHackScripts/RiskyJoip-sHub/files/6563898/RiskyJoip.s.HUB.txt'),true))()
+    end)
+    btns:Seperator()    
+
 
 
 
